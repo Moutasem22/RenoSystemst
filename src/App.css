@@ -1,0 +1,45 @@
+#components-layout-demo-side .logo {
+  height: 32px;
+  margin: 16px;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.site-layout .site-layout-background {
+  background: #fff;
+}
+
+.header-wrapper{
+  display: flex;
+  align-items: center; 
+  justify-content: space-between;
+  padding : 0 17px;
+}
+
+.header-wrapper .ant-input-wrapper{
+  width: 350px;
+} 
+.table-roles-wrapper .ant-table-thead tr > th:last-of-type{
+  text-align : center;
+}
+
+.dashboard-wrapper{
+  /* display: grid; 
+  grid-template-columns : 1fr 1fr;
+  grid-gap : 30px; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.dashboard-wrapper > div{
+  width : 47%;
+  margin-bottom : 40px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding : 5px;
+}
+.cards-wrapper{
+  margin-bottom : 40px;
+}
+.cards-wrapper .ant-col{ 
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px; */
+}

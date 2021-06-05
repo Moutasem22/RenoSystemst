@@ -1,0 +1,114 @@
+.ant-input,
+.ant-input-password,
+.ant-select-selector {
+  width: 100%;
+  height: 45px;
+  border: solid 1px #dadce0 !important;
+  border-radius: 6px !important;
+  background-color: transparent !important;
+  padding: 0 12px !important;
+  font-size: 15px;
+  color: #242424;
+}
+
+.ant-select-selector {
+  height: auto;
+  min-height: 45px;
+}
+
+button {
+  height: 35px;
+  min-width: 88px;
+  text-align: center;
+  color: #fff;
+  border-radius: 4px;
+}
+
+button.primary__btn {
+  background-color: #1e4844;
+}
+
+body,
+html {
+  font-family: 'Cairo', sans-serif;
+}
+
+.add__record--form .ant-form-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.add__record--form .ant-form-item > div {
+  -ms-flex-preferred-size: 100% !important;
+      flex-basis: 100% !important;
+  max-width: 100% !important;
+}
+
+.add__record--form .ant-form-item .ant-form-item-label label::after {
+  display: none;
+}
+
+.add__record--form .ant-form-item .ant-form-item-control {
+  width: 100%;
+}
+
+.add__record--form .add__form--footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  margin-top: 15px;
+  padding-top: 15px;
+  border-top: 1px solid #dadce0;
+}
+
+.add__record--form .add__form--footer button {
+  margin: 0 4px;
+}
+
+.add__record--modal {
+  width: 90% !important;
+  max-width: 877px;
+  border-radius: 7px !important;
+  overflow: hidden;
+}
+
+.ant-tabs.user__info .ant-tabs-tab-active {
+  background-color: #1e4844;
+  padding: 0 10px;
+  border: none;
+  border-radius: 5px 5px 0 0;
+  color: #fff;
+}
+
+.ant-tabs.user__info .ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: #fff;
+}
+
+.user__info--tab .user__bage--tab {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.user__info--tab p {
+  font-size: 1rem;
+  color: #00000078;
+}
+
+.user__info--tab p span {
+  color: #1e4844;
+}
